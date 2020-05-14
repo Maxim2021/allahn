@@ -461,7 +461,8 @@ async def test(ctx, arg): #создаем асинхронную фунцию б
 
 	#if msg in godbye_words:
 		#await message.channel.send('Ti opyatb vihodish na svyazb mudila?')
-	
+
+		
 token =os.environ.get('BOT_TOKEN')	
 
 bot.run(str(token))
