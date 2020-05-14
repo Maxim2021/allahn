@@ -8,7 +8,7 @@ import json
 import shutil
 import asyncio
 
-TOKEN = 'BOT_TOKEN'
+#TOKEN = 'BOT_TOKEN'
 
 PREFIX = '>>'
 
@@ -462,5 +462,7 @@ async def test(ctx, arg): #создаем асинхронную фунцию б
 	#if msg in godbye_words:
 		#await message.channel.send('Ti opyatb vihodish na svyazb mudila?')
 
+		
+token =os.environ.get('BOT_TOKEN')	
 
-bot.run(TOKEN)
+bot.run(str(token))
