@@ -8,7 +8,7 @@ import json
 import shutil
 import asyncio
 
-#TOKEN = 'BOT_TOKEN'
+#TOKEN = 'BOT_TOKEN' to fix in gg
 
 PREFIX = '>>'
 
