@@ -463,6 +463,6 @@ async def test(ctx, arg): #создаем асинхронную фунцию б
 		#await message.channel.send('Ti opyatb vihodish na svyazb mudila?')
 
 		
-token =os.environ.get('BOT_TOKEN')	
+token = os.environ.get('BOT_TOKEN')	
 
 bot.run(str(token))
